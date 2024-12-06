@@ -27,7 +27,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
   analyzer: ^6.3.0
-  firebase_core_platform_interface: ^5.0.0
   flutter_launcher_icons: ^0.14.0
   flutter_native_splash: ^2.3.9
   dependency_validator:
@@ -41,6 +40,31 @@ flutter:
   assets:
     - assets/logos/
     - assets/images/
+    - assets/haptics/
+
+  fonts:
+    - family: HgiStrokeRounded
+      fonts:
+        - asset: assets/fonts/hgi-stroke-rounded.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/InterVariable.ttf
+        - asset: assets/fonts/inter/InterVariable-Italic.ttf
+          style: italic
+    - family: PP Neue Machina
+      fonts:
+        - asset: assets/fonts/pp-neue-machina/PPNeueMachina-Light.otf
+          weight: 300
+        - asset: assets/fonts/pp-neue-machina/PPNeueMachina-Regular.otf
+          weight: 400
+        - asset: assets/fonts/pp-neue-machina/PPNeueMachina-Ultrabold.otf
+          weight: 800
+    - family: Silkscreen
+      fonts:
+        - asset: assets/fonts/silkscreen/Silkscreen-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/silkscreen/Silkscreen-Bold.ttf
+          weight: 700
 
 flutter_launcher_icons:
   android: false

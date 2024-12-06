@@ -1,0 +1,1 @@
+export 'chai_logo.dart';
